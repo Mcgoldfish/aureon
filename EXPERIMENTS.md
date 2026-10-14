@@ -60,3 +60,5 @@ Prediction Lab discovery cover matches the portfolio's paper texture, serif lett
 Poker Table discovery cover completes the five-project illustrated cover series.
 
 Fixed One More Trade and Poker Table alignment to match the other illustrated cover rows.
+
+All five active projects support a shared saved light/dark theme.
