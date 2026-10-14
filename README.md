@@ -1,34 +1,32 @@
-# Small Worlds
+# Aureon
 
-A playful collection of interactive economics, finance and data-science experiences. First release: a homepage and **The Mathematics of Ruin**, a five-chapter journey through compounding, Kelly growth and model uncertainty.
+An interactive portfolio exploring finance, economics and data science.
+
+## Projects
+
+- **Filing Lens** — search real company annual reports; standalone attached project.
+- **One More Trade** — a fictional stock-trading simulation.
+- **Subsidizing Competition** — original HIR Bronze essay; standalone attached project.
+- **The Prediction Lab** — regression, probability and correlation experiments.
+- **The Poker Table** — Texas Hold'em with computer opponents and optional probability exploration.
+
+The six removed projects are no longer listed or routed. Earlier source is retained as unlinked archives.
 
 ## Run locally
-Requires Node.js 20.19+ or 22.12+.
 
-```sh
+```powershell
 npm ci
 npm run dev
 ```
 
-Use the local address printed by Vite. The browser needs no backend. All capital and outcomes are fictional. Simulations run locally and do not use market data.
+Open http://127.0.0.1:5180 and keep the terminal open. Run `npm test` for 45 tests and `npm run build` to build the static website.
 
-## Validate
-```sh
-npm test
-npm run build
-```
+## Publish
 
-The build performs strict TypeScript checks and writes static assets to `dist`. Tests cover analytical formulas, edge cases, reproducibility, common outcomes, threshold tracking and Monte Carlo expectations.
+See [DEPLOYMENT.md](DEPLOYMENT.md). The GitHub Actions workflow tests, builds and deploys to GitHub Pages. Relative asset URLs support repository subfolders. Publication needs a destination GitHub repository; none is connected yet.
 
-## Deploy
-Serve `dist` through any static host with HTTPS. The app uses hash navigation, so it needs no server-side routing fallback beyond serving the root page. Sites hosting uses `.openai/hosting.json` and the Sites workflow; do not expose repository credentials. For a host under a subpath, configure Vite's `base` first.
+## Filing Lens collection
 
-## Project map
-- PROJECT.md: vision, architecture and design
-- EXPERIMENTS.md: current journey and future designs
-- AGENTS.md: future development conventions
-- src/models: pure computation, tests and model documentation
-- src/content: educational stages
-- src/experiments: interactions and SVG plots
+The dated Nasdaq-100 reference snapshot contains 100 company records, with 28 indexed reports and 4,489 searchable pages. Missing coverage is explicit. Reports come from AnnualReports.com; archive years can differ from fiscal reporting years. The reference company list comes from Wikipedia and is not independently certified by Nasdaq. Saved searches stay in the visitor's browser. Data refresh is manual.
 
-The four planned experiments are concept cards, not unfinished simulations. Optional Google Fonts have system fallbacks; no external requests are needed for model execution.
+React, strict TypeScript and Vite. Existing models and archived tests are preserved. No API keys, authentication or backend are required to run the published site.

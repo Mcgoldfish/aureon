@@ -1,20 +1,52 @@
 # Small Worlds
 
-An original creative-computing portfolio exploring economics, finance, data science, statistics and causal inference. Inspired by the approachable experimentation of Neal.fun, with an independent visual identity and no connection to Elixir Quant.
+A personal interactive economics, finance and data-science portfolio. Current experience: One More Trade. Buy, wait and sell as uncertain prices change. Keep the opening concrete, playful and short. The other five concepts remain proposals.
 
-## Product philosophy
-Entertainment first; understanding emerges through choices, predictions and consequences. Each experience follows intuition → experiment → complication → advanced model → final challenge. Guided journeys reveal complexity gradually. Free exploration exposes all parameters and optional mathematics.
+React, strict TypeScript and Vite; hash routes in App.tsx, shared cards and pages, discovery metadata in experiments/registry.ts. The active model, tests, chart, interface and scoped styles live in src/experiments/stock-playground. Previous mystery-box experiments and src/legacy are preserved but disconnected.
 
-## First release
-A responsive homepage, four honestly marked future concepts, and one substantial experience: The Mathematics of Ruin. All stakes are fictional units. No backend or real financial data is required.
+Local delivery only at http://127.0.0.1:5180 with strictPort. Preview uses 5181. Elixir Quant is independent. Do not update the earlier hosted snapshot without a publishing request.
 
-## Architecture
-React + TypeScript + Vite. `src/models` contains pure mathematical functions and seeded simulation; `src/content` contains journey copy; `src/experiments` owns experience components and SVG visualizations; `App.tsx` owns global navigation. CSS defines shared typography, color and responsive rules. SVG is sufficient for the first experience; add D3 only when a later visualization benefits from it.
+Validate model behavior with npm test, compile with npm run build, and inspect primary interactions and responsive layout in the browser. Exact assumptions and units are documented in the experience README.
 
-Future experiences should expose a self-contained component and pure model, then register with homepage navigation. Do not turn the homepage into a course catalogue or trading dashboard. Avoid backend infrastructure until a concrete requirement needs it.
+The portfolio now groups projects into Finance, Economics and DS/Maths. The Poker Table is a second playable project in src/experiments/holdem, with a tested pure poker engine and optional Monte Carlo equity. The user chooses 2–9 total players including themselves.
 
-## Visual direction
-Warm paper, forest ink, citrus accents, generous space and diagrammatic illustrations. Each future experiment may introduce its own accent palette and visual mechanics. Keyboard, touch and reduced-motion support are part of the design.
+Subsidizing Competition is the third interactive project, under Economics. One interactive simulator connects the author's HIR bronze essay to an illustrative coupon calculation and qualitative competition/policy scenarios. The original PDF is bundled locally. See src/experiments/food-subsidies/README.md.
 
-## Integrity
-State assumptions and limitations near technical explanations. Separate empirical evidence from toy simulations. Use common random numbers when comparing strategies, label finite-sample results, and test model calculations independently of rendering.
+Four sparse variable explanation slides now precede the subsidy simulator, with skip and revisit controls.
+
+Current Econ experience: one continuous subsidy-war simulation. Introductory slides removed. Animated order-share dots, Run/Pause/Restart, month scrubbing, shaded campaign timeline, inline help and collapsed market conditions. Changing assumptions pauses and resets time; original essay remains available.
+
+Storefront demonstration replaces dot panels with fictional Everyday Eats and Fresh Delivery. Live meal-price boards, monthly order counts, rounded customer queues and a funding runway meter. Entrant shutter closes after model exit. Coupon and starting budget are primary controls; duration/network effects are optional. Each queue figure represents about five percentage points of order share; individual behavior is not modeled. Price board derives the effective coupon from the model average, including affordability reductions.
+
+Current Econ edition: monthly business simulator. User sets coupon and operates one month at a time. JD and Meituan are simulated competitors; competitor offers react for the next month. Persistent cash, accounting, market shares, repeat-order estimate, End run and monthly ledger. No slideshow/playback/reset-on-coupon-edit.
+
+Current Econ direction: research-only essay page. Simulator removed from the active interface at user request. Original PDF is embedded with open/download links; portfolio card is labeled Read essay. Earlier model files are retained but unused.
+
+Essay presentation now uses a normal scrollable HTML text box, with original DOCX text and section headings; embedded PDF reader removed. Original PDF download retained.
+
+
+
+
+
+The Title Race Lab is a DS/Maths probability experience at #/experiments/title-lab. Manual strengths and generated 2023–24-club schedule; 1000/5000 seeded season simulations, championship frequencies and points histogram, eight-fixture conditional radar, and scrub/play parallel universes. Not a current forecast. See src/experiments/title-lab/README.md.
+
+
+The Prediction Lab is a DS/Maths experience at #/experiments/prediction-lab. Three seeded synthetic experiments: demand regression with manual/ridge polynomial models and held-out error comparisons, shot probabilities with manual/logistic curves and Brier scores, and a common-cause correlation/intervention lab. Intuition is locked before model lines, and model settings lock at reveal. See src/experiments/prediction-lab/README.md.
+
+The Prediction Lab interface, graph labels, controls, results and project card are now in English.
+
+
+## Filing Lens — Finance search tool
+
+Search real company-report passages at http://127.0.0.1:5180/#/experiments/filing-lens. Linked from the Finance portfolio group. Includes company/industry/archive-year filters, highlighted excerpts, original PDF pages and browser-local saved searches. Current reference snapshot: 100 company records, 28 indexed reports and 4,489 searchable pages; missing coverage is explicitly listed. Archive years can differ from fiscal report years. Collection notes: src/experiments/filing-lens/README.md. Local assets only; no authentication or backend.
+
+Filing Lens now uses minimal copy: search heading, input, coverage count, filters and report results. Marketing copy, example prompts, instructional panels and footer removed. Essential provenance remains in Sources.
+
+Filing Lens visual direction: compact green-and-grey report workspace, sans-serif typography, filter sidebar, rectangular search bar, company collection cards, and bordered passage results. Replaces the centered serif search landing page.
+
+Filing Lens refinement: restored the minimal centered search layout at user request. Sidebar and collection cards removed. Smaller visual differences retained: muted green accents, light background, gently squared search field and compact bordered results.
+
+All six active projects use components/ProjectHeader.tsx for identical back-link styling, category alignment, right-hand topic and responsive height. Filing Lens and Subsidizing Competition are attached projects; their topic titles link to standalone static pages in a new tab.
+
+
+Current publication scope: five projects only — Filing Lens, One More Trade, Subsidizing Competition, The Prediction Lab, The Poker Table. The six requested removals are absent from registry, homepage and routes. GitHub Pages workflow and relative asset links are prepared; repository selection/authentication are still outstanding.
