@@ -58,3 +58,5 @@ Filing Lens cover refinement: removed baked-in black frame and white edges; remo
 One More Trade uses a companion watercolor/ink cover and the same borderless responsive cover-and-description layout as Filing Lens.
 
 Subsidizing Competition uses the matching artistic cover with a takeaway bag, discount ticket and coin, in the shared borderless responsive layout.
+
+The Prediction Lab uses the shared artistic cover layout, with a sage fitted curve, scatter points and gold prediction point.

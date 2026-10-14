@@ -54,3 +54,5 @@ Filing Lens cover and adjacent copy now appear without an enclosing card box.
 One More Trade discovery cover: artistic serif title, sage market line and gold coin, aligned with Filing Lens.
 
 Subsidizing Competition cover aligns with Filing Lens and One More Trade; essay description and Read link remain beside it.
+
+Prediction Lab discovery cover matches the portfolio's paper texture, serif lettering and borderless responsive layout.
