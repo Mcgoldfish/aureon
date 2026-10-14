@@ -50,3 +50,7 @@ All six active projects use components/ProjectHeader.tsx for identical back-link
 
 
 Current publication scope: five projects only — Filing Lens, One More Trade, Subsidizing Competition, The Prediction Lab, The Poker Table. The six requested removals are absent from registry, homepage and routes. GitHub Pages workflow and relative asset links are prepared; repository selection/authentication are still outstanding.
+
+Filing Lens portfolio cover: approved artistic lettering and hand-drawn report/lens image in public/covers/filing-lens.png. Description sits beside the cover on desktop and below on mobile.
+
+Filing Lens cover refinement: removed baked-in black frame and white edges; removed enclosing card border, background and outer padding.

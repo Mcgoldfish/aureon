@@ -46,3 +46,7 @@ Attached projects: Filing Lens (/filing-lens/index.html) and Subsidizing Competi
 
 
 Published portfolio scope supersedes earlier entries: five projects remain. Removed Title Race Lab and five proposals are unlinked archives only.
+
+Filing Lens discovery card uses the approved illustrated cover with a responsive adjacent description.
+
+Filing Lens cover and adjacent copy now appear without an enclosing card box.

@@ -8,3 +8,10 @@
 
 .portfolio-group .planned:last-child:not(:only-child){grid-column:auto;display:block}
 .portfolio-group .planned:last-child:not(:only-child) .card-art{height:225px}
+
+.portfolio-group .filing-cover-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);align-items:center;gap:26px;background:transparent;border:0;border-radius:0;overflow:visible}
+.portfolio-group .filing-cover-card:hover{transform:none;box-shadow:none}
+.filing-cover-art{padding:0}
+.filing-cover-art img{display:block;width:100%;height:auto}
+.filing-cover-card .card-content{padding:0}
+@media(max-width:720px){.portfolio-group .filing-cover-card{display:block}.filing-cover-card .card-content{padding:20px 0 0}}
