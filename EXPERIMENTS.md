@@ -58,3 +58,5 @@ Subsidizing Competition cover aligns with Filing Lens and One More Trade; essay 
 Prediction Lab discovery cover matches the portfolio's paper texture, serif lettering and borderless responsive layout.
 
 Poker Table discovery cover completes the five-project illustrated cover series.
+
+Fixed One More Trade and Poker Table alignment to match the other illustrated cover rows.

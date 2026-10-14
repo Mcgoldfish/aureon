@@ -62,3 +62,5 @@ Subsidizing Competition uses the matching artistic cover with a takeaway bag, di
 The Prediction Lab uses the shared artistic cover layout, with a sage fitted curve, scatter points and gold prediction point.
 
 The Poker Table uses a matching artistic cover with two aces and sage chips, in the shared borderless responsive layout.
+
+All illustrated project rows share desktop cover width and adjacent description alignment; legacy last-card rules exclude illustrated rows.
