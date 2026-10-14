@@ -56,3 +56,5 @@ Filing Lens portfolio cover: approved artistic lettering and hand-drawn report/l
 Filing Lens cover refinement: removed baked-in black frame and white edges; removed enclosing card border, background and outer padding.
 
 One More Trade uses a companion watercolor/ink cover and the same borderless responsive cover-and-description layout as Filing Lens.
+
+Subsidizing Competition uses the matching artistic cover with a takeaway bag, discount ticket and coin, in the shared borderless responsive layout.
