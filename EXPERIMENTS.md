@@ -50,3 +50,5 @@ Published portfolio scope supersedes earlier entries: five projects remain. Remo
 Filing Lens discovery card uses the approved illustrated cover with a responsive adjacent description.
 
 Filing Lens cover and adjacent copy now appear without an enclosing card box.
+
+One More Trade discovery cover: artistic serif title, sage market line and gold coin, aligned with Filing Lens.

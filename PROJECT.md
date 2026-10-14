@@ -54,3 +54,5 @@ Current publication scope: five projects only — Filing Lens, One More Trade, S
 Filing Lens portfolio cover: approved artistic lettering and hand-drawn report/lens image in public/covers/filing-lens.png. Description sits beside the cover on desktop and below on mobile.
 
 Filing Lens cover refinement: removed baked-in black frame and white edges; removed enclosing card border, background and outer padding.
+
+One More Trade uses a companion watercolor/ink cover and the same borderless responsive cover-and-description layout as Filing Lens.
