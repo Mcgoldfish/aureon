@@ -56,3 +56,5 @@ One More Trade discovery cover: artistic serif title, sage market line and gold 
 Subsidizing Competition cover aligns with Filing Lens and One More Trade; essay description and Read link remain beside it.
 
 Prediction Lab discovery cover matches the portfolio's paper texture, serif lettering and borderless responsive layout.
+
+Poker Table discovery cover completes the five-project illustrated cover series.
