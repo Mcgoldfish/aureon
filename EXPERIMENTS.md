@@ -62,3 +62,5 @@ Poker Table discovery cover completes the five-project illustrated cover series.
 Fixed One More Trade and Poker Table alignment to match the other illustrated cover rows.
 
 All five active projects support a shared saved light/dark theme.
+
+Five coordinated dark covers now switch automatically with light/dark mode.

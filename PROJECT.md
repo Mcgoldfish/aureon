@@ -66,3 +66,5 @@ The Poker Table uses a matching artistic cover with two aces and sage chips, in 
 All illustrated project rows share desktop cover width and adjacent description alignment; legacy last-card rules exclude illustrated rows.
 
 Light/dark mode: persistent accessible toggle across portfolio, projects and standalone pages; defaults to system preference, synchronizes Filing Lens iframe and tabs. Shared color tokens adapt surfaces, text and chart labels. Covers retain their cream artwork with reduced dark-mode brightness.
+
+All five illustrated covers have separate charcoal-paper dark variants, selected by the saved theme without changing row layout. Original light assets remain intact; removed brightness filter.
